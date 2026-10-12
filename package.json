@@ -1,0 +1,20 @@
+{
+  "name": "next-dynamic-preload-crossorigin",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p 3000",
+    "assets": "node serve-assets.mjs",
+    "apply-fix": "node apply-fix.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
